@@ -21,6 +21,7 @@ if (requireNamespace("lintr", quietly = TRUE)) {
       arrow_assign = arrow_lintr,
       single_quotes_linter = NULL,
       trailing_whitespace_linter = NULL,
+      line_length_linter =  NULL,
       lintr::line_length_linter(90),
       commented_code_linter = NULL,
       lintr::T_and_F_symbol_linter,
